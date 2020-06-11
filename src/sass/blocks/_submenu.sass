@@ -1,0 +1,38 @@
+.sub
+    background: url('../img/bgc/bg_menu.png') 
+    height: 35px
+    position: absolute
+    z-index: 1
+    width: 100%
+.submenu
+    height: 35px
+    &__items
+        display: flex
+        justify-content: center
+        
+    &__item
+        font-family: 'Proxima Nova Regular'
+        margin: 5px 0
+        font-size: 14px
+        color: rgba(255, 255, 255, 1)
+        text-align: center
+        text-transform: uppercase
+        &:hover
+            text-decoration: none
+            font-family: 'Proxima Nova Regular'
+            font-weight: 900
+            margin: 5px 0
+            font-size: 14px
+            color: rgba(255, 79, 88, 1)
+    &__delet
+        width: 1px
+        height: 16px
+        width: 1px
+        background-color: rgba(204, 204, 204, 1)
+        margin: 9px 64px
+
+@media (max-width: 768px) 
+    .submenu__delet 
+        margin: 9px 35px
+
+            

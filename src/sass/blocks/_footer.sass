@@ -1,0 +1,36 @@
+.footer
+    position: absolute
+    display: block
+    margin: -280px 0px
+    min-height: 280px
+    width: 100%
+    z-index: 5
+    background:url(../img/bgc/bg_end.png) center (center/cover) no-repeat
+.infofooter
+    flex-wrap: wrap
+    margin: 0px 0px
+    display: flex
+    justify-content: space-around
+    .foot
+        &__img
+            display: block
+            margin: 0 auto
+            padding-top: 20px
+        &__subheader
+            font-family: 'Proxima Nova Bold'
+            margin-top: 10px
+            margin-bottom: 5px
+            font-size: 22px
+            font-weight: 700
+            color: rgba(0, 0, 0, 1)
+            text-align: center
+        &__subinfo
+            font-size: 16px
+            color: rgba(0, 0, 0, 1)
+            text-align: center
+            line-height: 20px
+            font-family: 'Proxima Nova Regular'
+
+@media (max-width: 768px) 
+    .footer
+        margin: 0px
