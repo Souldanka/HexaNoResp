@@ -1,7 +1,8 @@
 .about
     position: absolute
-    margin: -763px 0px 0px 0px
-    height: 483px
+    z-index: 10
+    margin-top: 34px
+    height: 490px
     width: 790px
     background: url(../img/shadows/s_1.png) center (center/cover) no-repeat
     &__header
@@ -109,64 +110,10 @@
     transform: skewX(-15deg)
     margin: 35px 0px 0px 370px
     position: absolute
-@media (max-width: 1024px)
-    .shade
-        height: 200px
-        width: 3px
-        background-color: rgba(255, 255, 255, 0.8)
-        transform: skewX(-15deg)
-        margin: 35px 0px 0px 50px
-        position: absolute
-    .about
-        position: absolute
-        margin: -391px 0px 0px 0px
-        height: 390px
-        width: 790px
-        background: url(../img/shadows/s_1.png) center center/cover no-repeat
-
-        &__header
-            transform: skewX(-15deg)
-            height: 125px
-            background-color: rgba(255, 255, 255, 0.7)
-            width: 570px
-            position: absolute
-            margin: 35px 0 0 75px
-        &_item
-            margin: 0 15px
-            font-size: 90px
-            color: rgba(0, 0, 0, 1)
-            letter-spacing: -0.02em
-            text-transform: uppercase
-            -webkit-transform: scale(1.16)
-            -ms-transform: scale(1.16)
-            transform: scale(1.16)
-            transform: skewX(15deg)
-        &__subheader
-            position: absolute
-            margin: 170px 0px 0px 48px
-            height: 63px
-            width: 294px
-            background-color: rgba(255, 255, 255, 0.7)
-            transform: skewX(-15deg)
-        &__price
-            position: absolute
-            margin: 178px 0px 0px 360px
-            display: flex
-            justify-content: center
-            height: 50px
-            width: 193px
-            box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75)
-            background-image: linear-gradient(90deg, rgba(42, 235, 42, 1) 0%, rgba(0, 117, 0, 1) 100%)
-            transform: skewX(-15deg)
-        &__subinfo
-            position: absolute
-            margin: 255px 40px
-        .item
-            height: 42px
-            width: 297px
-            font-size: 19px
-            font-weight: bold
-            color: rgba(255, 255, 255, 1)
-            text-transform: uppercase
-
-
+    
+@media (max-width: 764px)
+    .about 
+        margin-top: 318px !important
+        height: 380px !important
+        width: 100% !important
+    
